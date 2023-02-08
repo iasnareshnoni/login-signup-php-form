@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+
+background-color: #63728199;
+
+}
+.cont-1{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.image{
+    color: white;
+    background:linear-gradient(#2d70f7af,transparent),linear-gradient(80deg,blue,transparent),url('signup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+   
+}
+.image h3{
+    margin-bottom: 24px;
+}
+.image a{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    width: 90%;
+    position: absolute;
+    bottom: 61px;
+    left: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content {
+    background-color:white;
+    padding: 34px 0px 62px 21px !important;
+}
+.div-1{
+    padding: 60px;
+}
+
+.cont-1 input{
+    border: none;
+    width: 100%;
+}
+.cont-1 input:focus{
+      border: none !important;
+}
+.content button {
+    padding: 8px;
+    width: 70%;
+    background: #1de01d;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.content h2{
+        font-size: 37px;
+        margin-bottom: 32px;
+        margin-left: 67px;
+        font-weight: bold;
+    }
+    .image2{
+        background:linear-gradient(#2d70f7af,transparent),linear-gradient(80deg,#0000ff8c,transparent),url('signin.png');
+
+    }
+    .content-1 a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .content-1 button{
+        padding: 8px;
+        width: 70%;
+        background: blue;
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+    }
